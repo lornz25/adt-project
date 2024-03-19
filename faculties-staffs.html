@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Availability Checker</title>
+  <link href='style.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="login-form">
+        <div>
+            <div class="img-aligned">
+                <img src="./image/HEADER-copy-scaled.jpg" alt="HTC POSTER">
+            </div>
+            <div class="header">
+                <h1 id="header-name">
+                    Availability Checker
+                </h1>
+            </div>
+        </div>
+        <div class="form">
+            <div class="nav-item">
+                <nav>
+                <ul>
+                    <li id="l1">
+                    <button><a href="./index.html">Students / Applicants</a></button>
+                    </li>
+                    <li id="l2">
+                    <button><a href="./faculties-staffs.html">Faculties And Staffs</a></button>
+                    </li>
+                    <li id="l3">
+                    <button><a href="./about-app.html">About the App</a></button>
+                    </li>
+                </ul>
+                </nav>
+            </div>
+            <form class="form-box" action="./login-success.html" method="post" onsubmit="return myfunction(event)">
+                <div class="login-input">
+                    <div class="header">
+                        <h1 class="name-item">Faculties And Staffs</h1><br>
+                    </div>
+                    <div class="login-input-box">
+                        <label for="username">USERNAME</label>
+                        <input type="text" name="username" id="username">
+                    </div>
+                    <div class="login-input-box">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div class="ind-btn">
+                        <input type="submit" value="LOGIN" id="home" class="index-btn">
+                    </div>
+                </div><br>
+                <h3>Dont have an account? <a href="register.html">Click Here</a></h3>
+            </form>
+        </div>
+    </div>
+    <script src="./valid.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+}
+
+body {
+    background-color: rgb(84, 130, 53);
+}
+
+.container {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-aligned img {
+    border: 10px solid rgb(87, 143, 3);
+    height: 100%;
+    width: clamp(200px, 97%, 100%);
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.img-aligned {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-name {
+    color: rgb(197, 90, 17);
+    text-align: center;
+    font-size: 40px;
+    font-family: "cooper black";
+    width: 430px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: rgb(122, 182, 85);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.box {
+    background-color: blanchedalmond;
+    width: 420px;
+    border: 3px solid yellowgreen;
+    border-radius: 20px;
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.info-img img {
+    height: 100%;
+    width: 100px;
+}
+
+.info-text {
+    margin: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button {
+    cursor: pointer;
+    background-color: rgb(38, 100, 0);
+    color: rgb(255, 230, 0);
+    padding: 10px;
+    margin-top: 15px;;
+    font-size: larger;
+    font-family: 'Copperplate', fantasy;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    width: 30vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-two {
+    margin-top: 15px;
+}
+
+.logout-btn {
+    margin-top: 15px;
+    padding-bottom: 55px;
+}
+
+.logout-btn button {
+    width: 100%;
+    margin-top: 20px;
+    background-color: yellow;
+    color: green;
+}
+
+.main-box {
+    height: 90%;
+    width: 130vh;
+    margin: 15px;
+    margin-left: 20px;
+}
+
+.main-box .video-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+video {
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.side {
+    display: flex;
+    justify-content: center;
+}

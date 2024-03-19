@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(84, 130, 53);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    width: 800px;
+    height: 700px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid green;
+    border-radius: 20px;
+}
+
+.up-btn button {
+    padding: 5px 5px;
+    margin-right: 500px;
+}
+
+h1 {
+    color: green;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.buttons button {
+    cursor: pointer;
+    background-color: lightgreen;
+    color: green;
+    padding: 10px;
+    font-size: 30px;
+    border: 3px solid green;
+    border-radius: 20px;
+    width: 30rem;
+}
+
+.buttons button:hover {
+    background-color: green;
+    color: lightgreen;
+}
+
+button {
+    background-color: yellow;
+    color: green;
+    border: 3px solid  green;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 15px;
+}
